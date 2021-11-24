@@ -20,7 +20,7 @@ public class Main {
 		}
 		for (int j = 0; j < registroA.length; j++) {
 			
-			System.out.println("Lo strundente " + registroA[j].id + " è stato assente " + registroA[j].percAssenze + " volte quindi" + " è stato " + registroA[j].valutazioneFinale() + " col voto di " + registroA[j].votoMedio);
+			System.out.println("Lo stundente " + registroA[j].id + " è stato assente il " + registroA[j].percAssenze + "% del corso quindi è stato " + registroA[j].valutazioneFinale() + " col voto di " + registroA[j].votoMedio);
 		}
 
 	}

@@ -7,6 +7,7 @@ public class CalcolaValutazione {
 	int percAssenze;
 	double votoMedio;
 	String valutazione = "Promosso";
+	
 	//costruttore
 	
 	public CalcolaValutazione(int id, int percAssenze, double votoMedio) {
@@ -30,9 +31,6 @@ public class CalcolaValutazione {
 			 if (votoMedio < 2) {
 				 valutazione = "Bocciato";
 			 }
-		 }
-		 else {
-			 valutazione = "Promosso"; 
 		 }
 		 return valutazione;
 		
