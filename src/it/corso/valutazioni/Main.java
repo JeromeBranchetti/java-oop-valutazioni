@@ -14,7 +14,7 @@ public class Main {
 		for (int i = 0; i < registroA.length; i++) {
 			id = i + 1;
 			assenzeRand = random.nextInt(101);
-			votoRand = 0.1 * random.nextInt(51);
+			votoRand = random.nextInt(51) / 10.0;
 			
 			registroA[i] = new CalcolaValutazione(id , assenzeRand, votoRand);
 		}
